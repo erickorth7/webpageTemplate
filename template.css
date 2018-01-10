@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    word-wrap: break-word;
+    font-family: 'Asap Condensed', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 10%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #AD974F;
+}
+
+.navbar-inverse .navbar-nav>li.active>a {
+    color: #EAEAEA;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #AD974F;
+}
+
+#banner {
+    background-image: url(christian-kaindl-332935.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+#intro {
+    color: #EAEAEA;
+    padding: 5% 10% 20%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#about h3 {
+    margin-top: 5%;
+}
+
+#bio {
+    padding: 5%;
+    background-color: #EAEAEA;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 2px solid #AD974F;
+    height: 300px;
+    width: 300px;
+    margin-top: 10%;
+}
+
+.thumbnail img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #AD974F;
+    border-radius: 4px;
+}
+
+.fa-linkedin-square {
+    font-size: 30px;
+}
+
+#contact {
+    background-color: #EAEAEA;
+}
